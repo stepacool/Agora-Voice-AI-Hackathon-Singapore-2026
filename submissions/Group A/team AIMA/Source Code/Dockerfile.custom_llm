@@ -2,10 +2,10 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY "custom-llm/requirements.txt" .
+COPY "submissions/Group A/team AIMA/Source Code/custom-llm/requirements.txt" .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY "custom-llm/" /app/
+COPY "submissions/Group A/team AIMA/Source Code/custom-llm/" /app/
 
 EXPOSE 8000
 
