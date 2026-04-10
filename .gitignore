@@ -63,3 +63,5 @@ submissions/Group B/clawdbot/.next/
 submissions/Group B/clawdbot/out/
 submissions/Group B/clawdbot/.env*
 submissions/Group B/clawdbot/*.tsbuildinfo
+
+.idea/
